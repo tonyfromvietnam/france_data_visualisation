@@ -11,54 +11,65 @@ This project aims to get used to the additional libraries, which are useful in d
 <!-- GETTING STARTED -->
 ## Getting Started
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
+You should have installed a Python IDE, in which you could edit & writing codes. There are multiple Python IDEs, or even text editor.
+**If you are using a TextEditor, you would have to run by terminal**
 
 ### Prerequisites
 
-This is an example of how to list things you need to use the software and how to install them.
-* npm
-  ```sh
-  npm install npm@latest -g
-  ```
+Because of that, I would recommend using a IDE, in order for additional support; some of the IDEs I would recommend:
+1. Pycharm
+2. Visual Studio Code
+3. Spyder (via Anaconda Navigator)
+The information of download I will let it down here:
+[Pycharm](https://www.jetbrains.com/pycharm/download)
+[Visual Studio Code](https://code.visualstudio.com/download)
+[Anaconda Navigator](https://www.anaconda.com/products/distribution)
 
 ### Installation
 
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
-   ```sh
-   git clone https://github.com/github_username/repo_name.git
-   ```
-3. Install NPM packages
-   ```sh
-   npm install
-   ```
-4. Enter your API in `config.js`
-   ```js
-   const API_KEY = 'ENTER YOUR API';
-   ```
+You should install the recommended libraries, including matplotlib, pandas & numpy.
+* maplotlib
+  ```sh
+    python -m pip install -U pip
+    python -m pip install -U matplotlib
+  ```
+  or
+  ```sh
+    python -m pip install -U pip
+    pip install matplotlib
+  ```
+  
+* pandas
+  ```sh
+    python -m pip install -U numpy
+  ```
+  or
+  ```sh
+    pip install numpy
+  ```
+Numpy is officially been supported by Python itself, so you won't need to install NumPy on your personal computer.
 
+After that, you will have to import into your python file by:
+  ```sh
+    import maplotlib.pyplot as plt
+    import numpy as np
+    import pandas as pd
+  ```
 
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
+You can see and have an overview how those libaries are used in Data Science.
+* Matplotlib is a library in drawing graphs.
+* Numpy is a library in manipulating numeric in Python.
+* Pandas is a library in dealing with dataframe in Python.
 
-_For more examples, please refer to the [Documentation](https://example.com)_
-
-
-
-<!-- ROADMAP -->
-## Roadmap
-
-- [ ] Feature 1
-- [ ] Feature 2
-- [ ] Feature 3
-    - [ ] Nested Feature
-
-See the [open issues](https://github.com/github_username/repo_name/issues) for a full list of proposed features (and known issues).
-
-
+Through the codes in the project, you can have a view how I'm dealing with the data from an open-source dataset.
+Here are the steps that I used to approach a dataset so far:
+1. Have an overview on what information in this dataset can be used.
+2. Evaluate the value of the information
+3. Extract the information needed to visualisation.
+4. Start graphing and adding details to the graph.
 
 <!-- CONTRIBUTING -->
 ## Contributing
