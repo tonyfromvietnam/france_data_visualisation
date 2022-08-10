@@ -39,7 +39,7 @@ You should install the recommended libraries, including matplotlib, pandas & num
     pip install matplotlib
   ```
   
-* pandas
+* numpy
   ```sh
     python -m pip install -U numpy
   ```
@@ -47,7 +47,15 @@ You should install the recommended libraries, including matplotlib, pandas & num
   ```sh
     pip install numpy
   ```
-Numpy is officially been supported by Python itself, so you won't need to install NumPy on your personal computer.
+
+* pandas
+  ```sh
+    python -m pip install -U pandas
+  ```
+  or
+  ```sh
+    pip install pandas
+  ```
 
 After that, you will have to import into your python file by:
   ```sh
